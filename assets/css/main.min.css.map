@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU,CACN,WAAW,CAAE,OAAO,CACpB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,+BAA+B,CAGxC,UAAU,CACN,WAAW,CAAE,SAAS,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,iCAAiC",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
