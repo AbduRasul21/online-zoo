@@ -20,6 +20,18 @@
   }
   &:disabled {
     background: #767474;
-    cursor:not-allowed;
+    cursor: not-allowed;
   }
+}
+
+.btn_arrow {
+  width: 62px;
+  height: 62px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #ffffff;
 }

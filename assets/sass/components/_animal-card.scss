@@ -1,8 +1,8 @@
 .animal-card {
   width: 366px;
-  background-color: cadetblue;
+  // background-color: cadetblue;
   border-radius: 5px;
-  border: 1px solid;
+  border: 2px solid #FA6F32;
 //   border-image: linear-gradient(#FA6F32, #FE9013) 1;
 
   &_footer {
@@ -15,7 +15,12 @@
     font-size: 15px;
     line-height: 120%;
   }
+  img{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
-
-
+}
 
