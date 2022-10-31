@@ -18,6 +18,12 @@
     justify-content: space-between;
     color: #ffffff;
     background-color: #000000;
+    a {
+      color: #ffffff;
+    }
+    a:active {
+      color: #f9804b;
+    }
   }
   .navbar_left {
     & {
@@ -30,12 +36,6 @@
 
       &_item {
         margin-left: 58px;
-        a {
-          color: #ffffff;
-        }
-        a:active {
-          color: #f9804b;
-        }
       }
     }
     &_logo {
@@ -59,9 +59,4 @@
   }
 }
 
-a:active {
-  color: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-}
-a:visited {
-  color: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-}
+

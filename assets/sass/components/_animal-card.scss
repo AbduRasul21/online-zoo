@@ -1,0 +1,21 @@
+.animal-card {
+  width: 366px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  border: 1px solid;
+//   border-image: linear-gradient(#FA6F32, #FE9013) 1;
+
+  &_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px 14px 16px;
+  }
+  &_place {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+  }
+}
+
+
+

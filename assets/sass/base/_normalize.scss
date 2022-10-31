@@ -77,7 +77,6 @@ a {
   background-color: transparent;
   text-decoration: none;
   // color: #ffffff;
-
 }
 
 /**
@@ -150,6 +149,11 @@ sup {
 
 img {
   border-style: none;
+  // border-radius: 5px;
+  // -webkit-border-radius: 5px;
+  // -moz-border-radius: 5px;
+  // -ms-border-radius: 5px;
+  // -o-border-radius: 5px;
 }
 
 /* Forms
@@ -192,6 +196,7 @@ button,
 select {
   /* 1 */
   text-transform: none;
+
 }
 
 /**
@@ -361,4 +366,16 @@ template {
 ul,
 li {
   list-style-type: none;
+}
+
+h3{
+  margin: 0;
+  font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-transform: uppercase;
+
+color: #000000;
 }

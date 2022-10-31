@@ -1,0 +1,12 @@
+.backstage{
+    width: 1161px;
+    margin: 0 auto;
+    margin-top: 140px;
+    // height: 403px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    &_section{
+        width: 465px;
+    }
+}
