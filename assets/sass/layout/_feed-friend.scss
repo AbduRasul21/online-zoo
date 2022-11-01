@@ -1,0 +1,78 @@
+.feed-friend-wraper {
+  width: 1600px;
+  height: 1004px;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  opacity: 0.9;
+  margin: 0 auto;
+  padding-top: 69px;
+}
+
+.feed-friend {
+  width: 1160px;
+  height: 835px;
+  margin: 0 auto;
+  margin-top: 69px;
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  &_title {
+    padding-top: 41px;
+    text-align: center;
+    color: #fe9013;
+  }
+  &_text {
+    padding-left: 99px;
+  }
+}
+.cards-wraper{
+width: 764px;
+margin: 0 auto;
+// background-color: #febdab;
+
+&_title_secondary {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+
+    color: #333b41;
+    // padding-top: 60px;
+    // padding-left: 475px;
+  text-align: center;
+  }
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vector-wraper{
+    padding-top: 62px;
+}
+
