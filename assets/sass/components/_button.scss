@@ -34,4 +34,15 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   color: #ffffff;
+  &:hover {
+    cursor: pointer;
+    background: #e47209;
+  }
+  &:active {
+    background: #4b9200;
+  }
+  &:disabled {
+    background: #767474;
+    cursor: not-allowed;
+  }
 }

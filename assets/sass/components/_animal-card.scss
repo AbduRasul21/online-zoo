@@ -2,8 +2,8 @@
   width: 366px;
   // background-color: cadetblue;
   border-radius: 5px;
-  border: 2px solid #FA6F32;
-//   border-image: linear-gradient(#FA6F32, #FE9013) 1;
+  border: 2px solid #fa6f32;
+  //   border-image: linear-gradient(#FA6F32, #FE9013) 1;
 
   &_footer {
     display: flex;
@@ -15,12 +15,15 @@
     font-size: 15px;
     line-height: 120%;
   }
-  img{
+  img {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+  }
+  &:hover {
+    cursor: pointer;
+    background: #e47209;
+  }
 }
-}
-
