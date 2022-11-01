@@ -1,27 +1,29 @@
-.animal-cards-container{
-    margin: 0 auto;
-    width: 1322px;
-     display: flex;
-     align-items: center;
-       margin-top: 180px;
-       column-gap: 20px;
-       justify-content: space-between;
+.animal-cards-container {
+  margin: 0 auto;
+  width: 1322px;
+  display: flex;
+  align-items: center;
+  margin-top: 180px;
+  column-gap: 20px;
+  justify-content: space-between;
 }
 
-
-.animals-cards{
-    width: 1158px;
-    margin: 0 auto;
-    // background-color: aquamarine;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 20px;
+.animals-cards {
+  width: 1158px;
+  margin: 0 auto;
+  // background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
 }
 
-.button-wraper{
-    margin: 0 auto;
-    width: 298px;
-    margin-top: 80px;
-    margin-bottom: 100px;
+.button-wraper {
+  margin: 0 auto;
+  width: 298px;
+  margin-top: 80px;
+}
+
+.main {
+  margin-bottom: 100px;
 }

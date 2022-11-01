@@ -1,0 +1,17 @@
+.card{
+    width: 168px;
+    height: 244px;
+    // background-color: rgb(36, 161, 161);
+    &_image{
+width: 168px;
+height: 168px;
+background-color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #F9804B;
+border-radius: 5px;
+    }
+
+
+}
