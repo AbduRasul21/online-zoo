@@ -1,6 +1,6 @@
 .header {
   & {
-    background-image: url("../../images/Giant Panda.svg");
+    background-image: url("../../../assets/images/Giant Panda.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -20,6 +20,9 @@
     background-color: #000000;
     a {
       color: #ffffff;
+    }
+    a:hover {
+      color: #f9804b;
     }
     a:active {
       color: #f9804b;
