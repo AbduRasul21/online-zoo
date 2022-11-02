@@ -1,12 +1,11 @@
 .header {
-  & {
-    background: url("../../../assets/images/Giant Panda.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 780px;
-    position: relative;
-  }
+  background: url("../../../assets/images/Giant Panda.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 780px;
+  position: relative;
+
   .navbar-container {
     background-color: #000000;
   }
@@ -61,5 +60,3 @@
     right: 319px;
   }
 }
-
-
