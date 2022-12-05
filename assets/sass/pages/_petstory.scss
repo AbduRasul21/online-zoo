@@ -1,6 +1,49 @@
-.container {
-  width: 1600px;
+.header-container {
+  
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #ae3030;
+  background: url("../../assets/images/Giant Panda.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .navbar-container {
+    // margin: auto;
+    width: 100%;
+    background-color: #000000;
+  }
+  .navbar {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    
+    a {
+      color: #ffffff;
+    }
+    a:hover {
+      color: #f9804b;
+    }
+    a:active {
+      color: #f9804b;
+    }
+  }
+  .navbar_left {
+    & {
+      display: flex;
+      align-items: center;
+    }
+    &_list {
+      display: flex;
+      padding: 0;
 
+      &_item {
+        margin-left: 58px;
+      }
+    }
+    &_logo {
+      margin: 14px 5px 14px 0;
+    }
+  }
 }

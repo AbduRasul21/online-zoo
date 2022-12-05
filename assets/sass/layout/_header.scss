@@ -1,62 +1,23 @@
 .header {
-  background: url("../../assets/images/Giant Panda.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 780px;
   position: relative;
-
-  .navbar-container {
-    background-color: #000000;
-  }
-  .navbar {
-    width: 1160px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #ffffff;
-    background-color: #000000;
-    a {
-      color: #ffffff;
-    }
-    a:hover {
-      color: #f9804b;
-    }
-    a:active {
-      color: #f9804b;
-    }
-  }
-  .navbar_left {
-    & {
-      display: flex;
-      align-items: center;
-    }
-    &_list {
-      display: flex;
-      padding: 0;
-
-      &_item {
-        margin-left: 58px;
-      }
-    }
-    &_logo {
-      margin: 14px 5px 14px 0;
-    }
-  }
+  // background-color: #000000;
+  margin: auto;
+   height: 780px;
+   width: 1160px;
+  
   &_ellipce {
     position: absolute;
     top: 92px;
-    right: 328px;
+    right: 108px;
   }
   &_watch-your-animal {
     position: absolute;
     top: 166px;
-    left: 880px;
+    right: 0;
   }
   &_btn {
     position: absolute;
     bottom: 100px;
-    right: 319px;
+    right: 100px;
   }
 }
