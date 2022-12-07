@@ -1,5 +1,5 @@
 .feed-friend-wraper {
-  width: 1600px;
+
   height: 1004px;
   background: linear-gradient(
       315.75deg,
@@ -31,8 +31,8 @@
 .feed-friend {
   width: 1160px;
   height: 835px;
-  margin: 0 auto;
-  margin-top: 69px;
+  margin: 69px auto;
+  // margin-top: 69px;
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
   /* Note: backdrop-filter has minimal browser support */
